@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    font-family:'Libre Franklin', sans-serif;
+    color: white;
+    background: rgb(0,164,255);
+    background: linear-gradient(180deg, rgba(0,164,255,1) 39%, rgba(255,255,255,1) 100%);
+  }
+  
+  .avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid #efcf00;
+    box-shadow: 0 0 20px rgb(130, 134, 183);
+  }
+  
+  h1 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+  }
+  
+  h2 {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .profile {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px
+  }
+  
+  .social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+  }
+  
+  .social img {
+    width: 33px;
+  }
+  
+  
+  .links-list {
+    list-style: none;
+  }
+  
+  .links-list li {
+    margin: 50px 20px;
+  }
+  
+  .links-list li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .links-list li a span {
+    color: rgb(45, 45, 121);
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family:'Libre Franklin', sans-serif;
+    font-weight: bold;
+  }
+  
+  .links-list li a.active {
+    box-shadow: 0 0 20px rgb(130, 134, 183);
+    color: rgb(46, 138, 100);
+  }
+  
+  .links-list.second {
+    margin-top: 30px;
+  }
+
